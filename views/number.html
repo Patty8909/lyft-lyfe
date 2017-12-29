@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/main.css">
+  <title>SignUp</title>
+</head>
+<body>
+  <div class="container">
+    <a href="sign.html" type="button" class="btn btn-link">
+      <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+    </a>
+  </div>
+  <h2 class="text-center">Sign Up</h2>
+  <div class="text-center">
+    <span>Join now for free ride credit</span>
+  </div>
+  <br>
+  <form>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-5">
+          <select class="form-control">
+            <option>México</option>
+            <option>Colombia</option>
+            <option>Perú</option>
+            <option>EE.UU.</option>
+          </select>
+        </div>
+        <div class="form-group col-xs-7">
+          <input type="text" id="inputPhoneNumber" class="form-control" placeholder="Phone Number">
+        </div>
+      </div>
+    </div>
+    <div class="text-center">
+      <span>We'll send a text to verify your phone</span>
+    </div>
+    <br>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <button type="submit" class="btn btn-default btn-style" id="btn" disabled> NEXT </button>
+        </div>
+      </div>
+    </div>     
+  </form>
+  <script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
+	<script src="../js/number.js"></script>
+</body>
+</html>

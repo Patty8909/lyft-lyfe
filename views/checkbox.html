@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/main.css">
+  <title>Sign Up</title>
+</head>
+<body>
+  <div class="slide-buttons container-flex-row">
+    <a href="sign.html" type="button" class="btn btn-default">
+      <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+    </a>
+  </div>
+  <section>
+    <div>
+      <h1>Sign Up</h1>
+      <h4>Join now for free ride credit</h4>
+    </div>
+    <form>
+      <div class="form-group">
+        <span class="glyphicon glyphicon-user"></span>
+        <input type="text" class="form-control" id="inputFirstName" placeholder="First Name">
+      </div>
+      <div class="form-group">
+        <input type="text" class="form-control" id="inputLastName" placeholder="Last Name">
+      </div>
+      <div class="form-group">
+        <span class="glyphicon glyphicon-envelope"></span>
+        <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+      </div>
+      <div class="checkbox">
+        <label>
+          <input type="checkbox" id="inputCheckbox"> I agree to Lyft'ss <a href="#">Terms of service</a>
+        </label>
+      </div>
+      <button type="submit" class="btn btn-default" disabled>NEXT</button>
+    </form>
+  </section>
+  <script src="../vendors/jquery/jquery-3.2.1.min.js"></script>
+  <script src="../js/checkbox.js"></script>  
+</body>
+</html>

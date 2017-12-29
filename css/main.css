@@ -1,0 +1,29 @@
+.bg-lyft {
+  height: 100vh;
+}
+
+.grad-color1 {
+	background: linear-gradient( rgb(130, 32, 150) 45%, rgb(207, 99, 166));
+}
+
+.vh100 {
+	height: 100vh;
+}
+
+.bg-image {
+  background-image: url('../assets/images/bg-signup.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.margin {
+  margin-top: 35vh;
+}
+
+.lyft-style {
+  padding: 35% 0;
+}
+
+.btn-style {
+  padding: 0.25em 40%;
+}
